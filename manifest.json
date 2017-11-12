@@ -25,9 +25,14 @@
 
     "content_scripts": [
     {
+      "matches": ["https://www.indeed.com/j*"],
+      "css": ["css/jobs_page.css"],
+      "js": ["js/jquery-1.9.1.js", "js/main.js","js/jobs_page.js"]
+    },
+    {
       "matches": ["https://www.indeed.com/*"],
-      "css": ["css/template.css"],
-      "js": ["js/jquery-1.9.1.js", "js/main.js"]
+      "css": ["css/main_page.css"],
+      "js": ["js/jquery-1.9.1.js",  "js/main.js","js/main_page.js"]
     }
     ]
 
