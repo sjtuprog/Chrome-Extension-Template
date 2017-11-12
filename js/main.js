@@ -13,7 +13,6 @@ function init_main () {
 
 //bind events to dom elements
 
-console.log('aaa');
 
 document.addEventListener('DOMContentLoaded', init_main);
 
@@ -23,7 +22,9 @@ cssLink.replaceWith('<link href="../css/template.css" type="text/css" rel="style
 
 
 // replace images with cats
+/*
 var images = document.getElementsByTagName('img');
 for (var i = 0, l = images.length; i < l; i++) {
   images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 }
+*/
