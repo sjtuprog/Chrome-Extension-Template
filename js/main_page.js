@@ -20,7 +20,19 @@ document.addEventListener('DOMContentLoaded', init_main);
 var cssLink = $('link[href*="jobsearch_all.css"]');
 cssLink.replaceWith('<link href="../css/main_page.css" type="text/css" rel="stylesheet">');
 
+var url_img = chrome.extension.getURL('/images/background.png');
 
+console.log(url_img);
+
+/*
+var content = document.getElementsByClassName("content");
+
+
+
+content[0].style.backgroundImage = url_img;
+console.log(content[0]);
+alert(content[0].style.backgroundImage);
+*/
 // replace images with cats
 /*
 var images = document.getElementsByTagName('img');

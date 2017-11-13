@@ -145,3 +145,8 @@ div#g_nav #u_nav { margin-right: 18px; }
 
 
 #footerMainLinks a, #footerLegal a { color: #000 !important; font-weight: 1.5; font-size: 14px; }
+
+ 
+.content { background-image: url('chrome-extension://lmbghfmgkmohnmkhegeipnaagfaijihi/images/background.png'); background-size:cover;background-repeat:no-repeat;}
+  
+
