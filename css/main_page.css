@@ -141,12 +141,12 @@ div#g_nav #p_nav { margin-left: 20px; }
 div#g_nav #u_nav { margin-right: 18px; }
 
 
-.indeedLogo { background-size: 163px 45px !important; margin-left: -180px !important; margin-top: 27px !important; position: absolute; }
+.indeedLogo { background-size: 163px 45px !important; margin-left: -180px ; margin-top: 27px ; position: absolute; }
 
 
 #footerMainLinks a, #footerLegal a { color: #000 !important; font-weight: 1.5; font-size: 14px; }
 
  
-.content { background-image: url('chrome-extension://lmbghfmgkmohnmkhegeipnaagfaijihi/images/background.png'); background-size:cover;background-repeat:no-repeat;}
+.content { background-image: url("../images/background.png"); background-size:cover;background-repeat:no-repeat;}
   
 
