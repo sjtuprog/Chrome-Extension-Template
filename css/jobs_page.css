@@ -9,7 +9,7 @@ body{font:10px Arial,sans-serif;margin:2px 5px;background-color:#fff}span,a,b,em
     background: #e0e0e0;
 }
 */
-.indeedLogo { background-size: 163px 45px !important; margin-left: 80px !important; margin-top: 15px !important; position: fixed !important ;}
+.indeedLogo { background-size: 163px 45px !important; margin-left: 80px ; margin-top: 15px ; position: fixed !important ;}
 
 .row.result {
 	margin: 40px;
